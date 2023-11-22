@@ -1,0 +1,74 @@
+/* Body Content Mods */
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Image Mods */
+img{
+    padding: 10px;
+    height: 300px;
+}
+
+/* Hyperlink Mods */
+.linktxt {
+    text-decoration: none;
+    padding: 14px 16px;
+    color: rgb(0, 119, 255);
+}
+
+.linktxt:hover{
+    color: aqua;
+    background-color: #808080;
+}
+
+/* Navigation Bar */
+#navbar{
+    padding: 0;
+}
+
+.navbarmenu{
+    float: left;
+    border-right:1px solid #bbb;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.navbarmenu:last-child{
+    border-right:none;
+    text-decoration: none;
+}
+
+.navbarmenu:hover{
+    background-color: #808080;
+}
+
+.navbarlink{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Container */
+#web-header{
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+
+#main-content{
+    width: 100%;
+    float: left;
+}
+
+#web-footer{
+    clear: left;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#copyright{
+    padding-top: 100px;
+}
